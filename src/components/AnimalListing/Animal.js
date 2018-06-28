@@ -20,7 +20,6 @@ class Animal extends React.Component {
     });
     return (
       <div className="Animal">
-        <h2>Animals</h2>
         <ul>{animalsItemComponents}</ul>
       </div>
     );
