@@ -21,4 +21,17 @@ const getRequest = () => {
   });
 };
 
-export default {getRequest};
+const postRequest = (animal) => {
+  return new Promise((resolve, reject) => {
+    axios
+      .post(`${constants.firebaseConfig.databaseURL}/mashups.json`, animal)
+      .then((results) => {
+        resolve(results.data);
+      })
+      .catch((error) => {
+        reject(error);
+      });
+  });
+};
+
+export default {getRequest, postRequest};
