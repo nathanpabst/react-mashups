@@ -8,9 +8,9 @@ class Animal extends React.Component {
     const animalsItemComponents = animals.map((animal) => {
       return (
         <li key={animal.id} className="col-sm-6">
-          <div class="thumbnail">
+          <div className="thumbnail">
             <img src={animal.imgUrl} alt="animal" />
-            <div class="caption">
+            <div className="caption">
               <h3>{animal.name}</h3>
               <p>{animal.description}</p>
             </div>
