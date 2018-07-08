@@ -8,7 +8,7 @@ This application was built using React and demonstrates GET and POST requests. W
 Concepts covered: React, Sass, Bootstrap, JavaScript/ES6, Axios GET and POST requests to Firebase.
 
 ## Screenshots
-View of the Sign In screen on page load.
+View on page load.
 ![View on page load](https://raw.githubusercontent.com/nathanpabst/react-mashups/ecff054b0718658237f1a60153c4e72e8f178331/screenshots/Screen%20Shot%202018-07-08%20at%2010.46.11%20AM.png)
 
 
