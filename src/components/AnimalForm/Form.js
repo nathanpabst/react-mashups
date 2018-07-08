@@ -56,7 +56,7 @@ class Form extends React.Component {
     const {newAnimal} = this.state;
     return (
       <div className="col-xs-8 col-xs-offset-2">
-        <h2 className="text-center">Submit new animal:</h2>
+        <h2>Submit your favorite Mashup:</h2>
         <form onSubmit={this.formSubmit}>
           <div className="row">
             <fieldset className="col-xs-6">
@@ -103,7 +103,7 @@ class Form extends React.Component {
             </fieldset>
           </div>
 
-          <button className="col-xs-6 btn btn-default">Add Mashup</button>
+          <button className="col-xs-6 btn btn-danger">Add Mashup</button>
         </form>
       </div>
     );

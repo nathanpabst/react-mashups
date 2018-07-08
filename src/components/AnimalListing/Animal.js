@@ -9,7 +9,7 @@ class Animal extends React.Component {
       return (
         <li key={animal.id} className="col-sm-6">
           <div className="thumbnail">
-            <img src={animal.imgUrl} alt="animal" />
+            <img className="img" src={animal.imgUrl} alt="animal" />
             <div className="caption">
               <h3>{animal.name}</h3>
               <p>{animal.description}</p>
